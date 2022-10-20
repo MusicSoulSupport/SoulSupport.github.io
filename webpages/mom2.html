@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<style>
+body {
+  background-image: url('https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .Msc-logo {
+        position: relative;
+        width: 174px;
+        height: 99px;
+        background-color: gainsboro;
+		margin: 100px;
+    }
+	
+    .topnav {
+      background-color: #000000;
+	  opacity: 0.8;
+      margin: -8px;
+      height: 120px;
+      border: solid;
+      border-width: 3px;
+      border-left: 0px;
+      border-right: 0px;
+	  
+}
+
+img {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 70px;
+	
+	}
+
+.Msc-Nav a{
+        position: relative;
+        line-height:10px;
+        font-size: 27px;
+        margin-left: 50px;
+        float: right;
+        right: 65px;
+		top: 50px;
+        color: #D4D4D4;
+        text-decoration: none;
+        padding: 4px;
+        font-family: "Audiowide", sans-serif;
+		border-radius: 15px;
+		
+		
+    }
+	
+	.Msc-Nav a:hover {
+        background: transparent;
+        color: white;
+		transition: 0.5s;
+		text-decoration: none;
+    }
+    .Msc-Nav a:active {
+        background-color: gainsboro;
+        color: white;
+    }
+
+
+div.b {
+  margin: -10px; 
+  margin-left: 410px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 4px 8px 8px #000; 
+  color: #FFFFFF;
+  display: inline-block;
+  -webkit-animation: fadeInLeft linear 1.5s;
+}
+
+@keyframes fadeInLeft {
+   0% {
+      opacity: 0;
+      transform: translateX(-20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+}   
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 15px;
+  }
+  
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 15px;
+}
+
+.fa-instagram {
+  background: #FF6600;
+  color: white;
+  border-radius: 15px;
+}
+
+{
+  box-sizing: border-box;
+}
+.zoom {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: 100px;
+	  margin-left: 140px;
+      height: 250px;
+	  width: 600px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.zoom2 {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: -290px;
+	  margin-left:820px;
+      height: 250px;
+	  width: 600px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom2:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);   
+}
+
+.zoom3 {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: 20px;
+	  margin-left:140px;
+      height: 100px;
+	  width: 1280px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom3:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);   
+}
+
+.zoom4 {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: 20px;
+	  margin-left: 140px;
+      height: 150px;
+	  width: 600px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom4:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.zoom5 {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: -190px;
+	  margin-left: 820px;
+      height: 150px;
+	  width: 600px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom5:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.zoom6 {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: 20px;
+	  margin-left: 140px;
+      height: 170px;
+	  width: 600px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom6:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.zoom7 {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: -210px;
+	  margin-left: 820px;
+      height: 170px;
+	  width: 600px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom7:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.zoom8 {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: 20px;
+	  margin-left: 1220px;
+      height: 330px;
+	  width: 200px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom8:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.zoom9 {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: -370px;
+	  margin-left: 140px;
+      height: 330px;
+	  width: 1000px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom9:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.zoom10 {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: 10px;
+	  margin-left: 520px;
+      height: 330px;
+	  width: 900px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom10:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.zoom11 {
+  transition: transform .5s;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+      margin: 20px;
+	  margin-top: -370px;
+	  margin-left: 140px;
+      height: 330px;
+	  width: 300px;
+	  opacity: 0.9;
+	  font-size: 23px;
+	  font-family: 'Lato';
+	  color: gray;
+	  font-style: italic;
+	  line-height: 1.4;
+}
+
+.zoom11:hover {
+  ms-transform: scale(1.1); /* IE 9 */
+  webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.mom {
+  margin-left: 320px;
+  margin-top: -130px;
+}
+
+.mom2 {
+  margin-left: 320px;
+  margin-top: -113px;
+}
+
+.mom3 {
+  margin-left: 320px;
+  margin-top: -160px;
+}
+
+.mom4 {
+  margin-left: 320px;
+  margin-top: -140px;
+}
+
+.mom5 {
+  margin-left: -60px;
+  margin-top: -15px;
+}
+
+.mom6 {
+  margin-left: -30px;
+  margin-top: 30px;
+}
+
+.mom7 {
+  margin-left: -30px;
+  margin-top: 180px;
+}
+
+</style>
+
+<div class="topnav">
+
+      <div class="Msc-Logo">
+        <a class="active" href="file:///C:/Users/pc6/Desktop/HTML%20ulit%20pls%20pls%20pls/mom.html"><img src="https://i.ibb.co/Dbf00HK/logo.png" alt="Flowers in Chania" width="150" height="100;">
+    </div>
+	
+	<div class="Msc-Nav">
+            <a href="file:///C:/Users/pc6/Desktop/HTML%20ulit%20pls%20pls%20pls/mom4.html"><!--<h2 style="font-family:verdana; float:left;">--><b>Contact Us</b> <!--</h2>--></a>
+             <a href="file:///C:/Users/pc6/Desktop/HTML%20ulit%20pls%20pls%20pls/mom3.html"><!--<h2 style="font-family:verdana;">--><b>Profiles</b><!--</h2>--></a>
+             <a href="#CATEGORIES"><!--<h2 style="font-family:verdana;">--><b>Contents </b><!--</h2>--></a>
+        </div>
+    </div>
+
+
+
+<div class="zoom"> What Is Streaming? <p style="font-size: 14px; font-family:'Montserrat';font-weight: normal; font-style: italic; color: gray;"> Streaming is a multimedia that delivers such reports, entertainment, and announcements through podcast and broadcast. Streaming is usually present on television, gadgets, or social media platforms that feature streaming services. Streaming refers to any media content – live or recorded – delivered to computers and mobile devices via the internet and played back in real time. Podcasts, webcasts, movies, TV shows and music videos are common forms of streaming content. </p></div>
+
+<div class="zoom2"> What Are The Platform Used For Streaming? <p style="font-size: 14px; font-family:'Montserrat';font-weight: normal; font-style: italic; color: gray;"> Streaming Devices - Most of the streaming platforms are made in flat panel display technology and online platform services. Television transmits visual images and sound that is presented on the screen. It is mostly used to broadcast programs, news reports, entertainment, and announcements that are related to our daily basis. <br> <br> Streaming Apps - Now that you know how to stream and the devices you’ll need – what type of content are you going to stream? Netflix, YouTube and several others are still some of the best and most popular streaming services with apps you can access on the go -- many of which you can stream through HBO, Viu, Spotify, Deezer, and many more. </p> </div>
+
+<div class="zoom3"> Streaming Contents <p style="font-size: 14px; font-family:'Montserrat';font-weight: normal; font-style: italic; color: gray;"> Streaming content is an audio or video file on the Internet that's played without being fully downloaded. More specifically, live streaming is the method of constantly sending and receiving content over the Internet. </p> </div>
+
+<div class="zoom4"> Tutorials <p style="font-size: 14px; font-family:'Montserrat';font-weight: normal; font-style: italic; color: gray;"> This is a common type of streamed video. <br> It is also known as “how to” content. This kind <br> of content aims to show the audience how to <br> simply and logically carry out a task.
+<div class="mom"> <img src="https://i.ibb.co/n0Dk76W/Tutorial.png" alt="Flowers in Chania" width="200" height="120;"> </div>
+ </p></div>
+
+<div class="zoom5"> Interviews <p style="font-size: 14px; font-family:'Montserrat';font-weight: normal; font-style: italic; color: gray;"> Interviews are another type of indispensable <br> video streaming content, both in the world of <br> business and in the entertainment industry.
+<div class="mom2"> <img src="https://i.ibb.co/swScT2t/Interview.png" alt="Flowers in Chania" width="200" height="120;"> </div>
+ </p></div>
+
+<div class="zoom6"> Q&A sessions <p style="font-size: 14px; font-family:'Montserrat';font-weight: normal; font-style: italic; color: gray;"> Question and answer sessions are another <br> ideal option for entertainment companies. <br> These streaming sessions help the public <br> feel closer to the brand, the product, or the <br> event being promoted by providing additional <br> information about the event.
+<div class="mom3"> <img src="https://i.ibb.co/mXkwLyg/QNA.png" alt="Flowers in Chania" width="200" height="120;"> </div>
+ </p></div>
+
+<div class="zoom7"> Gaming <p style="font-size: 14px; font-family:'Montserrat';font-weight: normal; font-style: italic; color: gray;"> Gaming contents are related to fps gaming <br> platforms, offline games, competitions, and <br> players who stream and upload content online.<br> It also led to the fact that entertained viewers <br> also wanna try out what they played in streaming.
+<div class="mom4"> <img src="https://i.ibb.co/BCrWbYM/Gaming.png" alt="Flowers in Chania" width="200" height="120;"> </div>
+ </p></div>
+
+<div class="zoom8"> Needs Of Viewers <p style="font-size: 17px; font-family:'Montserrat';font-weight: normal; font-style: italic; color: gray;"> • Information <br> • Entertainment <br> • News <br> • Inspiration 
+<div class="mom5"> <img src="https://i.ibb.co/qj2P61W/Need.webp" alt="Flowers in Chania" width="180" height="180;"> </div>
+</p></div>
+
+<div class="zoom9"> Characteristics Of A Good Stream  <p style="font-size: 14px; font-family:'Montserrat';font-weight: normal; font-style: italic; color: gray;"> Can keep your stream schedule consistent - This will more likely increase your viewer count. Successful streamers point out that consistency is crucial if you want to get a decent number of followers and grow your channel. 
+<br><br>Can entertain and engage with your audience - It’s important for streamers to keep things interesting to get people to stick around. While entertaining varies from streamer to streamer, most of them agree that to maintain a fun stream, you have to be energetic, learn to be a good storyteller, and have no dead air or radio silence.
+<br><br>Demonstrates Flexibility - Top streamers are flexible and have a backup plan for every situation. In streamer Shado_Temple’s words, “Things will go wrong in a stream, whether it be technical issues, broken games, unruly chats, bad timing on anything, etc. A good streamer can roll with the punches, make quality entertainment despite it all.”
+<br><br>Additionally, streamers show flexibility when gaining momentum on their channel, especially with viewer count. Once you have a record-breaking day for viewers, make schedule adjustments the next days, push your limits, and use the momentum to build a larger fan base.
+ </p></div>
+
+<div class="zoom10"> How To Grow A Streaming Channel? <p style="font-size: 14px; font-family:'Montserrat';font-weight: normal; font-style: italic; color: gray;"> Stream Often - Speaking of pushing limits and using momentum, top streamers always talk about the importance of being active and streaming a lot, which takes a lot of patience and hard work.
+<br> <br> Collaborate with other streamers - Connect with streamers—popular or not—with whom you have some chemistry, and participate in activities, such as multiplayer matches, organizing amazing shows, entertainment acts, etc. Interesting collaborations attract much attention and give you extra exposure to potential new audience members.
+<br> <br> Follow trends - Trends are a great way to make your content more interesting and engaging. It also helps you create content that your audience wants, giving them more incentives to return. Regardless of your niche, you should regularly check out the latest trends, topics, and games to stream.
+<br> <br> Upgrade equipment when you can - As you grow your community, it wouldn't hurt to upgrade old equipment and invest heavily into top-tier streaming gears and tech for better results. You can also improve the quality of your stream by adding accessories such as a stream deck, a green screen, or even something as simple as LED studio lighting.
+ </p> </div>
+
+<div class="zoom11">
+<div class="mom6"> <img src="https://i.ibb.co/MBYJgdF/streaming.jpg" alt="Flowers in Chania" width="210" height="120;"> </div>
+<div class="mom7"> <img src="https://i.ibb.co/cN1MthL/Striii.webp" alt="Flowers in Chania" width="210" height="120;"> </div>
+
+</p></div>
+
+
+
+<div class="b" style="font-size:90px;"> 
+
+<p style="font-size:23px;">  </p> </div>
+
+<p style="text-align:center;">
+<a href="#yes" class="fa fa-facebook"></a> <a href="#yis" class="fa fa-twitter"></a> <a href="#yas" class="fa fa-instagram"> </a>
+</p>
+
+<p style="text-align:center; margin-top: -10px; font-weight: bold"> ©All Rights Reserved 2022 </p>
+
+
+
+</body>
+</html>
